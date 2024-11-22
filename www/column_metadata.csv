@@ -1,0 +1,28 @@
+Column,Details
+Tested SNP,RefSNP ID (rsID) of the SNP with allele specific activity
+Reference,reference allele
+Alternate,alternate allele 
+Associated Disease,abbreviation of disease associated with the daSNV
+Gene Annotation,annotated by CADD v1.4
+Nearest Gene,nearest gene annotated by Haploreg v4
+eGene All Sources,gene linked to eQTL from PsychENCODE and GTEx v8
+eGene GTEx,eGene for the SNP from GTEx in the tissues corresponding to its disease
+Tissue GTEx,the tissue in GTEx in which the SNP is a significant eQTL and only those that correspond to its disease
+Tissue ATAC,tissue where daSNV lies in an ATAC peak
+Tissue HiChIP,tissue where daSNV lies in a HiChIP peak
+Broken Motif,motif broken by daSNV found by MotifBreakR
+Gained Motifs,motif gained by daSNV found by MotifBreakR
+Drug Target eGene,drug targeted by eGene All Sources found by Drug Repurposing Hub
+Drug Target Name,drug associated with above eGene
+CMAP Gene Up,gene in relevant cell models with increased expression due to drugs indicated for neuropsychiatric condition 
+CMAP Gene Up Drug,CMAP drugs associated with increased expression
+CMAP Gene Down,gene in relevant cell models with decreased expression due to drugs indicated for neuropsychiatric condition
+CMAP Gene Down Drug,CMAP drugs associated with decreased expression
+ATAC Activity,if daSNV has allele-specific ATAC activity
+HiChIP Activity,if daSNV has allele-specific HiChIP activity
+UKBB Phenotype,UK Biobank phenotypes associated with eGene of interest
+AbC Genes,Genes that are linked by Activity-by-Contact model to the daSNV
+Chromosome,Chromosome number in GRCh37
+Position,SNP position in GRCh37
+Lead SNP,rsID of the SNP analyzed in the GWAS study which implicated the locus
+Source,originating source for the GWAS lead SNP
