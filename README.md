@@ -1,1 +1,1 @@
-# arvid-neuropsychiatry
+# arvid-neuro
